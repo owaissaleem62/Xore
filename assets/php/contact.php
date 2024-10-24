@@ -24,7 +24,7 @@ header("Access-Control-Allow-Origin: *");
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "yourmail@gmail.com";
+        $recipient = "codensinc.digital@gmail.com";
 
         // Set the email subject.
         $subject = "Egens - Mail From $first_name";

@@ -920,61 +920,61 @@
         }
     }
 }
-.slidertwo-pagination{
-    & .swiper-pagination-bullet{
-        background-color: #e2c4ff;
-        height: 18px;
-        width: 18px;
-        border-radius: 100%;
-        opacity: 1;
-        transition: .4s;
-        line-height: 1;
-        &.swiper-pagination-bullet-active{
-            width: 60px;
-            border-radius: 20px;
-            background-color: $primary;
-            transition: .4s;
-        }
-    }
-    bottom: 18px;
-    text-align: start;
-    position: relative;
-    margin: auto;
-    line-height: .8;
-    @media #{$extraBig-device} {
-        max-width: 1300px
-    }
-    @media #{$laptop-device} {
-        max-width: 1300px
-    }
-    @media only screen and (min-width: 1200px) and (max-width: 1400px)
-    {
-        max-width: 1116px;
-        bottom: 20px !important;
-    }
-    @media #{$desktop-device} {
-        max-width: 938px;
-        bottom: 20px !important;
-    }
-    @media #{$tablet-device} {
-        max-width: 698px;  
-    }
-    @media #{$large-mobile} {
-        max-width: 516px;  
-        bottom: -30px !important;
-    }
-    @media #{$small-mobile} {
-        max-width: 100%;
-        margin-right: 15px;
-        margin-left: 15px;  
-        bottom: -30px !important;
-    }
-    @media #{$extra-small-mobile} {
-        max-width: 100%;
-        margin-right: 15px;
-        margin-left: 15px; 
-    }
-}
+// .slidertwo-pagination{
+//     & .swiper-pagination-bullet{
+//         background-color: #e2c4ff;
+//         height: 18px;
+//         width: 18px;
+//         border-radius: 100%;
+//         opacity: 1;
+//         transition: .4s;
+//         line-height: 1;
+//         &.swiper-pagination-bullet-active{
+//             width: 60px;
+//             border-radius: 20px;
+//             background-color: $primary;
+//             transition: .4s;
+//         }
+//     }
+//     bottom: 18px;
+//     text-align: start;
+//     position: relative;
+//     margin: auto;
+//     line-height: .8;
+//     @media #{$extraBig-device} {
+//         max-width: 1300px
+//     }
+//     @media #{$laptop-device} {
+//         max-width: 1300px
+//     }
+//     @media only screen and (min-width: 1200px) and (max-width: 1400px)
+//     {
+//         max-width: 1116px;
+//         bottom: 20px !important;
+//     }
+//     @media #{$desktop-device} {
+//         max-width: 938px;
+//         bottom: 20px !important;
+//     }
+//     @media #{$tablet-device} {
+//         max-width: 698px;  
+//     }
+//     @media #{$large-mobile} {
+//         max-width: 516px;  
+//         bottom: -30px !important;
+//     }
+//     @media #{$small-mobile} {
+//         max-width: 100%;
+//         margin-right: 15px;
+//         margin-left: 15px;  
+//         bottom: -30px !important;
+//     }
+//     @media #{$extra-small-mobile} {
+//         max-width: 100%;
+//         margin-right: 15px;
+//         margin-left: 15px; 
+//     }
+// }
 
 /* Slider Two */
 .slidertwo-style{
