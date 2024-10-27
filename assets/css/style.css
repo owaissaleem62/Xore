@@ -371,7 +371,7 @@ hr {
   /* background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%); */
   border: 0px;
   border-radius: 27px;
-  padding: 20px 45px;
+  padding: 16px 27px;
   line-height: 1;
   font-size: 16px;
   font-family: "Jost", sans-serif;
@@ -3004,12 +3004,12 @@ hr {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-two .btn-style-one {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 }
 @media only screen and (max-width: 767px) {
   .about-two .btn-style-one {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 }
 .about-two-images {
