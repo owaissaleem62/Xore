@@ -138,13 +138,13 @@ function parallax(e){
     /*---------------------------------
 	 	Magnific pupup
     -----------------------------------*/
-    $('.parent-gallery').magnificPopup({
-      delegate: '.item', // child items selector, by clicking on it popup will open
-      type: 'image',
-      gallery:{
-        enabled:true
-      }
-      // other options
-    });
+    // $('.parent-gallery').magnificPopup({
+    //   delegate: '.item', // child items selector, by clicking on it popup will open
+    //   type: 'image',
+    //   gallery:{
+    //     enabled:true
+    //   }
+    //   // other options
+    // });
 
 })(jQuery);
